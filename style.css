@@ -1,0 +1,68 @@
+body{
+    margin: 0px ;
+    font-family: "SoDo Sans SemiBolo",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.navbar-up {
+    text-transform: uppercase;
+    justify-content: flex-start;
+    font-weight: bolder;
+    color: black;
+}
+
+.navbar-up, .intro{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link ul li{
+    list-style: none;
+}
+
+.navbar-link ul li a, .navbar-up a{
+    text-decoration: none;
+}
+
+.navbar-link{
+    float: left;
+    width: 20%;
+    padding: 1em;
+}
+
+
+.tips1{
+    white-space: pre-wrap;
+    border: 2px orange solid;
+    margin: 0px 0px 50px 280px;
+
+}
+
+.mecanum{
+    margin-left: 270px;
+}
+
+.intro{
+    white-space: pre-wrap;
+}
+
+.tips{
+    white-space: pre-wrap;
+    border: 2px orange solid;
+    margin: 0px 0px 50px 0px;
+}
+
+.intro span, .tips span, .tips1 span{
+    font-size: small;
+    border: 1px gray solid;
+}
+
+.intro{
+    justify-content: space-between;
+}
+
+.RoboRIO img{
+    display: flex;
+    width: 700px;
+    justify-content: end;
+    margin-right: 50px;
+}
